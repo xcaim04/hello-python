@@ -5,7 +5,7 @@
 # - Múltiplos de 5 por la palabra "buzz".
 # - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
 
-def fizzbuzz(i, lim: int):
+def fizzbuzz(i: int, lim: int):
     while i <= lim:
         if i % 3 == 0 and i % 5 == 0:
             print('fizzbuzz')
